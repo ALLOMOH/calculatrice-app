@@ -4,7 +4,9 @@
   "asar": true,
   "icon": "./public/android-chrome-512x512.png",
   "productName": "Calculatrice App",
-  "buildVersion": "1.0.0",
+  "buildVersion": "1.0.1",
+  "author": "Allomohange Alex",
+  "version": "1.0.1",
   "copyright": "Copyright © 2025 Allomohange Alex}",
   "directories": {
     "output": "release/${version}"

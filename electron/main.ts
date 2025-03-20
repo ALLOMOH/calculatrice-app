@@ -39,9 +39,10 @@ function createWindow() {
     titleBarOverlay:true,
     roundedCorners:true,
     resizable:false,
+    vibrancy:'fullscreen-ui',
     webPreferences: {
       preload: path.join(__dirname, 'preload.mjs'),
-      nodeIntegration:false,
+      // nodeIntegration:false,
       contextIsolation:true,
     },
   })
